@@ -2,7 +2,7 @@ FROM thomaswelton/ubuntu
 
 MAINTAINER thomaswelton
 
-ENV VERSION 2.8.7
+ENV VERSION 2.8.6
 RUN wget http://download.redis.io/releases/redis-$VERSION.tar.gz
 RUN tar xzf redis-$VERSION.tar.gz
 RUN cd redis-$VERSION && make
